@@ -1,0 +1,30 @@
+{
+  "name": "zen-frontend",
+  "version": "1.0.0",
+  "description": "Vue.js frontend application",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 3000"
+  },
+  "dependencies": {
+    "axios": "^1.5.0",
+    "marked": "^16.2.1",
+    "pinia": "^2.1.6",
+    "vue": "^3.3.4",
+    "vue-router": "^4.2.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.3.4",
+    "vite": "^4.4.9"
+  },
+  "keywords": [
+    "vue",
+    "frontend",
+    "spa"
+  ],
+  "author": "",
+  "license": "MIT"
+}
