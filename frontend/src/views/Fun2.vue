@@ -169,8 +169,8 @@ const loading = ref(false)
 const isDragOver = ref(false)
 const uploadingFiles = ref([])
 
-// API基础URL
-const API_BASE_URL = 'http://127.0.0.1:5000/api'
+// API基础URL - 使用相对路径通过Vite代理访问
+const API_BASE_URL = '/api'
 
 // 文件上传处理
 const handleDrop = (event) => {

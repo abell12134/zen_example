@@ -1,0 +1,20 @@
+# PDF处理器打包专用依赖
+# 仅包含pdf_processor_complete.py运行所需的核心依赖
+
+# PDF处理核心库
+PyMuPDF>=1.23.0
+
+# Excel操作
+openpyxl>=3.1.0
+
+# 图像处理
+Pillow>=10.0.0
+
+# OCR识别
+rapidocr-onnxruntime>=1.3.0
+
+# 打包工具
+pyinstaller>=6.0.0
+
+# 运行时依赖
+numpy>=1.24.0
